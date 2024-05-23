@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-[url('https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg')] bg-no-repeat bg-cover">
+    <center>
+        <form
+            class="mt-[160px] w-[550px] h-[310px] bg-white rounded-[20px] pt-[25px] flex flex-col items-center gap-[10px]"
+            action="">
+            <p class="font-mono text-2xl">Login</p>
+            <input
+                class="w-[80%] h-[55px] rounded-[10px] pl-[20px] placeholder:text-green-700 outline-[#2acd2a] text-green-800 bg-[#e0e0e0] form__first_inp"
+                type="text" placeholder="Username" required>
+            <input
+                class="w-[80%] h-[55px] rounded-[10px] pl-[20px] placeholder:text-green-700 outline-[#2acd2a] text-green-700 bg-[#e0e0e0] form__second_inp"
+                type="text" placeholder="Email" required>
+            <button type="button"
+                class="w-[80%] h-[55px] rounded-[10px] text-white font-mono text-xl bg-[#2acd2a] active:bg-[#219321] form__btn">LOGIN</button>
+            <p class="p-error"></p>
+        </form>
+    </center>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
